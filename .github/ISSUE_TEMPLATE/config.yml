@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord Community Support
+    url: https://discord.gg/bcV6TN2k
+    about: You can also ask our Discord Community for help
+  - name: Critical Security related bugs like data leaks
+    url: https://github.com/lazybytez/.github/blob/main/docs/CONTRIBUTING.md#security-issues
+    about: Don't create issues about data leaks etc. For this please contact 'security@lazybytez.de'
