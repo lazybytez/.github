@@ -71,7 +71,17 @@ fix: remove this small bug
 
 Available Commit Prefixes:
 ```bash
-'feat','fix','perf','refactor','cs','test','build','ci','docs','changelog','bump'
+'feat', // Some new feature that has been added
+'fix', // Some fixes to an existing feature
+'build', // Some change on how the project is built
+'chore', // Some change that just has to be done (like updating dependencies)
+'ci', // Some changes to the continues integration workflows
+'docs', // Some changes to documentation located in the repo (either markdown files or code DocBlocks)
+'perf', // Some performance improvements
+'refactor', // Some code changes, that neither adds functionality or fixes a bug
+'revert', // Some changes that revert already done changes
+'style', // Some fixes regarding code style
+'test', // Some automated tests that have been added
 ```
 
 ## You're ready
