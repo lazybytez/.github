@@ -1,7 +1,7 @@
 --- 
 name: Bug report [Hard]
 about: Bugs which cause incorrect or bad functionality, confusing user experience, etc.
-title: "[C1] TITLEHERE"
+title: "TITLE HERE"
 labels: C1 - bug, T2 - hard
 assignees: ''
 

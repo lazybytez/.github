@@ -1,7 +1,7 @@
 --- 
 name: Bug report [Critical]
 about: Bugs which causes data loss, crashes, etc.
-title: "TITLEHERE"
+title: "TITLE HERE"
 labels: C1 - bug, T1 - critical
 assignees: ''
 

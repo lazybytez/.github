@@ -1,7 +1,7 @@
 --- 
 name: Bug report [Medium]
-about: Bugs about formatting, cosmetics, spelling, colors, etc. 
-title: "[C1] TITLEHERE"
+about: Bugs about formatting, cosmetics, spelling, colors, etc.
+title: "TITLE HERE"
 labels: C1 - bug, T3 - medium
 assignees: ''
 

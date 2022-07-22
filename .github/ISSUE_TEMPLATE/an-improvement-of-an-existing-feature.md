@@ -1,7 +1,7 @@
 ---
 name: An improvement of an existing feature
 about: Suggest an idea for this project
-title: "[C3] TITLEHERE"
+title: "TITLE HERE"
 labels: C3 - enhancement
 assignees: ''
 
