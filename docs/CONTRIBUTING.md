@@ -3,12 +3,12 @@
 Thank you for your interest in contributing to our project - but to keep everything organized, we need some guidelines
 and standards that apply to the project.
 We tried to keep those guidelines as short as possible and make it easy for new contributors to get started. Please read
-this guidelines carefully, to keep up with our issue, branching and pull request standards.
+these guidelines carefully, to keep up with our issue, branching and pull request standards.
 
 ## Code of conduct
 
 Please refer to our `code of conduct` before you contribute anything as it sets
-some behavior rules to make a pleasant together. In the moment you contribute anything, you must follow this code of
+some behavior rules to make a pleasant together. At the moment you contribute anything, you must follow this code of
 conduct.
 
 ## Dealing with questions, bugs and feature requests
@@ -23,14 +23,14 @@ concise explanation of your matter of concern.
 
 If you find some really serious security issue, please don't create a GitHub issue for it in the first line - it could
 put all bots based on this repository onto risk.
-Send a mail to [this email][reportmail] instead, to keep it structured you can simply copy our bug template into your
+Send a mail to [this email][email] instead, to keep it structured you can simply copy our bug template into your
 mail.
 
 ## Contributing code
 
 Code contributions are great because they allow anyone to contribute to their favorite projects - in addition they help
-us to make progress. But there're some things to keep in mind when contributing code. You grant us a perpetual license
-to use your code under the MIT license in the moment you contribute something to this project. This contributing code
+us to make progress. But there are some things to keep in mind when contributing code. You grant us a perpetual license
+to use your code under the MIT license at the moment you contribute something to this project. This contributing code
 section covers all defined standards that have nothing to do with or coding standards, as they are separated from our
 contribution guide - but we recommended to read them, as code that not follows them will be rejected.
 
@@ -43,7 +43,7 @@ the projects source code.
 
 ### Process of a code contribution
 
-The step by step process for code contributions to dcc looks like the following:
+The step-by-step process for code contributions to dcc looks like the following:
 
 1. Choose an issue that you want to resolve (Create one if you want to implement something, but there is no issue for
    it)
@@ -60,9 +60,9 @@ The following things should be noted when working with issues:
 
 1. Always use the matching template when you create new issues.
 2. Keep the issue up to date with your current progress.
-4. Do not create duplicates.
+3. Do not create duplicates.
 
-If you don't follow this guidelines, your issue will be closed and labeled as invalid or duplicate.
+If you don't follow these guidelines, your issue will be closed and labeled as invalid or duplicate.
 
 ### Pull requests, branching and commits
 
@@ -73,21 +73,22 @@ issues title will fit) and add all required labels.
 It is very important that you link the right issue in the "Solves issue" section of the template, as every PR must be
 the result of an open issue.
 
-Requirements for an approved PR:
+**Requirements for an approved PR:**
 
 1. Merge into develop: You need one approving review from a collaborator or maintainer.
 2. The CI checks have to pass.
-4. All requested changes and conversations have to be resolved before the merge.
-5. You need a linked issue that the PR solves.
-6. Merge into master: Only develop is allowed to be merged into master.
-7. Merge into master: You need two approving reviews. One **must** be from a maintainer.
+3. All requested changes and conversations have to be resolved before the merge.
+4. You need a linked issue that the PR solves.
+5. Merge into main: Only develop is allowed to be merged into main.
+6. Merge into main: You need two approving reviews. One **must** be from a maintainer.
 
 #### Branching
 
 Our project uses a very standard branching model. We have the `main` branch that is the most stable branch. It is always
 the branch that ends up as a release.
-The `develop` branch is our default branch. All contributions will be merged into ´develop´ using pull requests. If you
-want to contribute, fork the project and make your changes. You should create feature and bug branches. We do not use
+The `develop` branch is our default branch. All contributions will be merged into `develop` using pull requests. If you
+want to contribute, fork the project and make your changes. You should create `feature/` and `fix/` branches. We do not
+use
 documentation branches to minify the overhead.
 
 #### Commits
