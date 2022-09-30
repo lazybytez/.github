@@ -133,4 +133,4 @@ If you have some suggestions to this contributing guidelines, feel free to sugge
 
 <!-- Variables -->
 
-[mail]: mailto:security@lazybytez.de
+[email]: mailto:security@lazybytez.de
