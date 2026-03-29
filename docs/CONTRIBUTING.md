@@ -7,14 +7,14 @@ these guidelines carefully, to keep up with our issue, branching and pull reques
 
 ## Code of conduct
 
-Please refer to our `code of conduct` before you contribute anything as it sets
-some behavior rules to make a pleasant together. At the moment you contribute anything, you must follow this code of
+Please refer to our [Code of Conduct](CODE_OF_CONDUCT.md) before you contribute anything as it sets
+some behavior rules to ensure a pleasant collaboration. At the moment you contribute anything, you must follow this code of
 conduct.
 
 ## Dealing with questions, bugs and feature requests
 
 If you have any questions, bugs or feature requests, feel free to open an issue.
-Note that you must use one of our issue templates that your issue is valid - valid issues will always retrieve the
+Note that you must use one of our issue templates for your issue to be valid - valid issues will always retrieve the
 attention that is required to solve them.
 Before you create an issue, search for your subject and be sure to not create a duplicate. Always provide a clear and
 concise explanation of your matter of concern.
@@ -22,7 +22,7 @@ concise explanation of your matter of concern.
 ### Security issues
 
 If you find some really serious security issue, please don't create a GitHub issue for it in the first line - it could
-put all bots based on this repository onto risk.
+put users of affected software at risk.
 Send a mail to [this email][email] instead, to keep it structured you can simply copy our bug template into your
 mail.
 
@@ -43,7 +43,7 @@ the projects source code.
 
 ### Process of a code contribution
 
-The step-by-step process for code contributions to dcc looks like the following:
+The step-by-step process for code contributions looks like the following:
 
 1. Choose an issue that you want to resolve (Create one if you want to implement something, but there is no issue for
    it)
@@ -75,21 +75,15 @@ the result of an open issue.
 
 **Requirements for an approved PR:**
 
-1. Merge into develop: You need one approving review from a collaborator or maintainer.
+1. You need one approving review from a collaborator or maintainer.
 2. The CI checks have to pass.
 3. All requested changes and conversations have to be resolved before the merge.
 4. You need a linked issue that the PR solves.
-5. Merge into main: Only develop is allowed to be merged into main.
-6. Merge into main: You need two approving reviews. One **must** be from a maintainer.
 
 #### Branching
 
-Our project uses a very standard branching model. We have the `main` branch that is the most stable branch. It is always
-the branch that ends up as a release.
-The `develop` branch is our default branch. All contributions will be merged into `develop` using pull requests. If you
-want to contribute, fork the project and make your changes. You should create `feature/` and `fix/` branches. We do not
-use
-documentation branches to minify the overhead.
+Our project uses a straightforward branching model. The `main` branch is the stable default branch and the target for all pull requests.
+To contribute, fork the project and create a branch from `main` using one of these prefixes: `feature/`, `fix/`, `hotfix/`, `release/`, or `renovate/`.
 
 #### Commits
 
@@ -119,6 +113,7 @@ Available Commit Prefixes:
 'refactor', // Some code changes, that neither adds functionality or fixes a bug
 'revert', // Some changes that revert already done changes
 'style', // Some fixes regarding code style
+'sec', // Some security-related changes
 'test', // Some automated tests that have been added
 ```
 
