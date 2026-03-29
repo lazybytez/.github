@@ -19,7 +19,7 @@ Send a report to [security@lazybytez.de][security-email] instead. Please include
 - Steps to reproduce the issue
 - Any potential impact you have identified
 
-You will receive an acknowledgment within 48 hours. An initial assessment of severity and scope will be provided within 7 business days of receipt.
+You will receive an acknowledgment within 48 hours. An initial assessment of severity and scope will be provided within 7 days of receipt.
 
 ## Coordinated disclosure
 
